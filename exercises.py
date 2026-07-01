@@ -239,7 +239,7 @@ EXERCISE_CATEGORIES = [
             'safety': {'en': 'Gentle, no pain', 'cn': '\u8f7b\u67d4\u62c9\u4f38\uff0c\u65e0\u75db'},
         },
         {
-            'name': {'en': 'Hip Flexor Stretch', 'cn': '\u9acb\u5c48\u808c\u725b\u4f38'},
+            'name': {'en': 'Hip Flexor Stretch', 'cn': '\u9acb\u5c48\u808c\u7275\u4f38'},
             'target': {'en': 'Iliopsoas', 'cn': '\u9acb\u8170\u808c'},
             'setup': {'en': 'Standing lunge, back knee straight.', 'cn': '\u5f6a\u6b65\u7ad9\u7acb\uff0c\u540e\u817f\u819d\u4f38\u76f4\u3002'},
             'action': {'en': 'Tuck pelvis, shift weight forward gently.', 'cn': '\u6536\u9aa8\u76c8\uff0c\u8f7b\u8f7b\u524d\u79fb\u91cd\u5fc3\u3002'},

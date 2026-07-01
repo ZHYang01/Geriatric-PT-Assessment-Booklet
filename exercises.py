@@ -209,17 +209,17 @@ EXERCISE_CATEGORIES = [
         'cn': '\u67d4\u97e7\u6027\u8bad\u7ec3',
     }, [
         {
-            'name': {'en': 'Calf Stretch', 'cn': '\u5c0f\u817f\u725b\u4f38'},
+            'name': {'en': 'Calf Stretch', 'cn': '\u5c0f\u817f\u7275\u4f38'},
             'target': {'en': 'Gastrocnemius, soleus', 'cn': '\u8153\u80a0\u808c\u3001\u6bd4\u76ee\u9c7c\u808c'},
             'setup': {'en': 'Stand facing wall, one foot back, straight knee.', 'cn': '\u9762\u5899\u7ad9\u7acb\uff0c\u4e00\u811a\u540e\u9000\uff0c\u819d\u4f38\u76f4\u3002'},
-            'action': {'en': 'Lean forward, feel stretch in back calf.', 'cn': '\u524d\u503e\uff0c\u611f\u53d7\u540e\u4fa7\u5c0f\u817f\u725b\u4f38\u3002'},
+            'action': {'en': 'Lean forward, feel stretch in back calf.', 'cn': '\u524d\u503e\uff0c\u611f\u53d7\u540e\u4fa7\u5c0f\u817f\u7275\u4f38\u3002'},
             'dose': 'Hold 20\u201330 s \u00d7 2 / leg',
             'progress': {'en': 'Deeper lean', 'cn': '\u66f4\u6df1\u524d\u503e'},
             'regress': {'en': 'Less lean', 'cn': '\u51cf\u5c11\u524d\u503e'},
             'safety': {'en': 'No bouncing', 'cn': '\u52ff\u5f39\u9707'},
         },
         {
-            'name': {'en': 'Hamstring Stretch', 'cn': '\u8158\u7ef3\u808c\u725b\u4f38'},
+            'name': {'en': 'Hamstring Stretch', 'cn': '\u8158\u7ef3\u808c\u7275\u4f38'},
             'target': {'en': 'Hamstrings', 'cn': '\u8158\u7ef3\u808c'},
             'setup': {'en': 'Seated, one leg extended.', 'cn': '\u5750\u4f4d\uff0c\u4e00\u817f\u4f38\u76f4\u3002'},
             'action': {'en': 'Hinge forward from hips, reach for toes.', 'cn': '\u4ece\u9ac4\u90e8\u524d\u5c48\uff0c\u624b\u89e6\u811a\u5c16\u3002'},
@@ -229,10 +229,10 @@ EXERCISE_CATEGORIES = [
             'safety': {'en': 'No bouncing; back straight', 'cn': '\u52ff\u5f39\u9707\uff1b\u4fdd\u6301\u80cc\u76f4'},
         },
         {
-            'name': {'en': 'Chest / Pec Stretch', 'cn': '\u80f8\u90e8\u725b\u4f38'},
+            'name': {'en': 'Chest / Pec Stretch', 'cn': '\u80f8\u90e8\u7275\u4f38'},
             'target': {'en': 'Pectorals', 'cn': '\u80f8\u5927\u808c'},
             'setup': {'en': 'Stand in a doorway, forearm on frame.', 'cn': '\u7ad9\u4e8e\u95e8\u6846\uff0c\u524d\u81c2\u8d34\u95e8\u6846\u3002'},
-            'action': {'en': 'Gently turn away, feel stretch across chest.', 'cn': '\u8f7b\u8f6c\u8eab\u4f53\uff0c\u611f\u53d7\u80f8\u90e8\u725b\u4f38\u3002'},
+            'action': {'en': 'Gently turn away, feel stretch across chest.', 'cn': '\u8f7b\u8f6c\u8eab\u4f53\uff0c\u611f\u53d7\u80f8\u90e8\u7275\u4f38\u3002'},
             'dose': 'Hold 20\u201330 s \u00d7 2 / side',
             'progress': {'en': 'Higher arm on frame', 'cn': '\u624b\u81c2\u52a0\u9ad8'},
             'regress': {'en': 'Lower arm position', 'cn': '\u624b\u81c2\u964d\u4f4e'},
@@ -326,7 +326,7 @@ def build_exercise_library(lang='en'):
 
     if lang == 'cn':
         title = '\u5c45\u5bb6\u8fd0\u52a8\u5e93'
-        intro = ('\u4ee5\u4e0b\u7cbe\u9009 {n} \u4e2a\u9002\u5408\u8001\u5e74\u4eba\u7684\u5c45\u5bb6\u5b89\u5168\u52a8\u4f5c\uff0c'
+        intro = ('\u4ee5\u4e0b\u7cbe\u9009 26 \u4e2a\u9002\u5408\u8001\u5e74\u4eba\u7684\u5c45\u5bb6\u5b89\u5168\u52a8\u4f5c\uff0c'
                  '\u5206\u4e3a\u4e94\u7c7b\u3002\u6bcf\u4e2a\u52a8\u4f5c\u5747\u6807\u6ce8\u76ee\u6807\u808c\u7fa4\u3001'
                  '\u5242\u91cf\u3001\u8fdb\u9636\u4e0e\u9000\u9636\uff0c\u4f9b\u6cbb\u7597\u5e08\u6839\u636e\u8bc4\u4f30\u7ed3\u679c'
                  '\u4e2a\u6027\u5316\u5904\u65b9\u3002')
@@ -336,7 +336,7 @@ def build_exercise_library(lang='en'):
         lbl_prog = '\u8fdb\u9636 \u2191'
         lbl_reg = '\u9000\u9636 \u2193'
         warmup = ('\u70ed\u8eab\uff1a5\u201310 \u5206\u949f\u4f4e\u5f3a\u5ea6\u6d3b\u52a8\uff08\u539f\u5730\u8e0f\u6b65\u3001'
-                  '\u5173\u8282\u6d3b\u52a8\uff09\u3002\u653e\u677e\uff1a\u7ec3\u540e\u8fdb\u884c\u67d4\u97e7\u6027\u725b\u4f38\u3002')
+                  '\u5173\u8282\u6d3b\u52a8\uff09\u3002\u653e\u677e\uff1a\u7ec3\u540e\u8fdb\u884c\u67d4\u97e7\u6027\u7275\u4f38\u3002')
         caution = ('\u6ce8\u610f\uff1a\u6240\u6709\u5e73\u8861\u52a8\u4f5c\u59cb\u7ec8\u9760\u8fd1\u6263\u624b\u6216\u5899\u9762\u3002'
                    '\u51fa\u73b0\u75db\u3001\u5934\u6655\u6216\u5fc3\u60b8\u65f6\u7acb\u5373\u505c\u6b62\u3002')
         safety_hdr = '\u4f7f\u7528\u8bf4\u660e'

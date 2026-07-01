@@ -794,7 +794,6 @@ def build_story():
         ['Flexibility (stretching)', '', '', '', '', ''],
     ]
     story.append(make_table(ex, col_widths=cols(3, 2, 2, 2, 2.5, 3)))
-    story.append(SP(6))
 
     # ── Home Exercise Library ──
     story.append(PageBreak())

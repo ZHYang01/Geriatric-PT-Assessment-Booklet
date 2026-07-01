@@ -808,7 +808,6 @@ def build_story():
         ['柔韧性训练（牵伸）', '', '', '', '', ''],
     ]
     story.append(make_table(ex, col_widths=cols(3, 2, 2, 2, 2.5, 3)))
-    story.append(SP(6))
 
     # ── 居家运动库 ──
     story.append(PageBreak())
